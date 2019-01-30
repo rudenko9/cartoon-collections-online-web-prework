@@ -5,11 +5,9 @@ def roll_call_dwarves(dwarvers)
 end
 
 def summon_captain_planet(veggies)
-  array = veggies.split ("")
-  returning = []
-  array.each do |word|
-    returning << word.capitalize + "!"
-end
+  veggies.collect do |word|
+    word.capitalize + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
