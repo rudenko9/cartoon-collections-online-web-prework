@@ -21,5 +21,5 @@ def find_the_cheese(cheddar_cheese)
   cheddar_cheese.find do |cheese|
   cheese.include?("chedder")
   end
-   return cheddar_cheese[2]
+   return cheddar_cheese[1]
 end
