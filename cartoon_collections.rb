@@ -21,7 +21,7 @@ def find_the_cheese(cheddar_cheese)
   cheddar_cheese.find do |cheese|
   cheese.include?("cheese")
   cheddar_cheese.collect do |x|
-    X + 1
+    x + 1
   end
   end
 end
